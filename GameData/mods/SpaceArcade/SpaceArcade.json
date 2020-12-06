@@ -1,0 +1,15 @@
+{
+    "bIsDeletable": false,
+    "modName": "SpaceArcade",
+    "teamDefaultCarriers": [
+        "Carrier",
+        "Carrier",
+        "Carrier",
+        "Carrier",
+        "Carrier"
+    ],
+    "teamNames": [
+        "Blue Team",
+        "Red Team"
+    ]
+}

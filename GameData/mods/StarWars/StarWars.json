@@ -1,0 +1,15 @@
+{
+    "bIsDeletable": true,
+    "modName": "StarWars",
+    "modelGlobals.bUseNormalMap": true,
+    "modelGlobals.bUseNormalMapTBNFlip": false,
+    "modelGlobals.bUseNormalMapXSeamCorrection": true,
+    "teamDefaultCarriers": [
+        "RebelCarrier",
+        "StarDestroyer"
+    ],
+    "teamNames": [
+        "Rebels",
+        "Empire"
+    ]
+}

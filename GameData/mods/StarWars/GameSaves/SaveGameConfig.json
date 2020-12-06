@@ -1,0 +1,16 @@
+{
+    "ConfigBase": {
+        "bIsDeletable": true,
+        "name": "SaveGameConfig"
+    },
+    "SaveGameConfig": {
+        "campaignData": [
+            {
+                "campaign.campaignName": "GameData/mods/StarWars/Assets/Campaigns/CampaignConfig_0.json",
+                "campaign.completedLevels": [
+                    
+                ]
+            }
+        ]
+    }
+}

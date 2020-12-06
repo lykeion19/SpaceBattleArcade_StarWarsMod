@@ -1,0 +1,965 @@
+{
+    "ConfigBase": {
+        "bIsDeletable": true,
+        "name": "RebelCarrier"
+    },
+    "SpawnConfig": {
+        "avoidanceSpheres": [
+            {
+                "localPosition": [
+                    0.0,
+                    0.0,
+                    120.0
+                ],
+                "radius": 60.0
+            },
+            {
+                "localPosition": [
+                    0.0,
+                    0.0,
+                    50.0
+                ],
+                "radius": 60.0
+            },
+            {
+                "localPosition": [
+                    0.0,
+                    0.0,
+                    -25.0
+                ],
+                "radius": 60.0
+            },
+            {
+                "localPosition": [
+                    0.0,
+                    0.0,
+                    -100.0
+                ],
+                "radius": 60.0
+            }
+        ],
+        "bRequestsCollisionTests": true,
+        "engineEffectData": null,
+        "fullModelFilePath": "GameData/mods/StarWars/Assets/Models3D/rebel_carrier/MC80StarCruiser_normalmap.obj",
+        "modelAABB": {
+            "modelPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "modelRotationDegrees": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "modelScale": [
+                10.0,
+                10.0,
+                10.0
+            ]
+        },
+        "placements": [
+            {
+                "placementType": "COMMUNICATIONS",
+                "pos": [
+                    0.0,
+                    1.649999976158142,
+                    0.44999998807907104
+                ],
+                "relativeFilePath": "Assets/Models3D/satellite/GroundSatellite.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    0.20000000298023224
+                ]
+            },
+            {
+                "placementType": "COMMUNICATIONS",
+                "pos": [
+                    0.0,
+                    1.9550000429153442,
+                    5.925000190734863
+                ],
+                "relativeFilePath": "Assets/Models3D/satellite/GroundSatellite.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    0.20000000298023224
+                ]
+            },
+            {
+                "placementType": "COMMUNICATIONS",
+                "pos": [
+                    0.0,
+                    0.8650000095367432,
+                    11.449999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/satellite/GroundSatellite.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    0.20000000298023224
+                ]
+            },
+            {
+                "placementType": "COMMUNICATIONS",
+                "pos": [
+                    0.0,
+                    2.296999931335449,
+                    -4.400000095367432
+                ],
+                "relativeFilePath": "Assets/Models3D/satellite/GroundSatellite.obj",
+                "rotDeg": [
+                    0.0,
+                    180.0,
+                    0.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    0.20000000298023224
+                ]
+            },
+            {
+                "placementType": "COMMUNICATIONS",
+                "pos": [
+                    0.0,
+                    1.0219999551773071,
+                    -11.100000381469727
+                ],
+                "relativeFilePath": "Assets/Models3D/satellite/GroundSatellite.obj",
+                "rotDeg": [
+                    0.0,
+                    180.0,
+                    0.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    0.20000000298023224
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    -1.350000023841858,
+                    1.024999976158142,
+                    -5.824999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    -49.375,
+                    93.42500305175781
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    -1.375,
+                    1.100000023841858,
+                    3.200000047683716
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    -49.375,
+                    93.42500305175781
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    -1.25,
+                    0.875,
+                    9.574999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    -49.375,
+                    93.42500305175781
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    -1.75,
+                    -1.024999976158142,
+                    5.949999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    -147.9250030517578,
+                    87.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    -1.75,
+                    -1.2999999523162842,
+                    -1.9500000476837158
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    -147.9250030517578,
+                    87.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    1.350000023841858,
+                    1.024999976158142,
+                    -5.824999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    49.0,
+                    97.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    1.375,
+                    1.100000023841858,
+                    3.200000047683716
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    49.375,
+                    93.42500305175781
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    1.25,
+                    0.875,
+                    9.574999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    49.375,
+                    93.42500305175781
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    1.75,
+                    -1.024999976158142,
+                    5.949999809265137
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    147.9250030517578,
+                    87.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "TURRET",
+                "pos": [
+                    1.75,
+                    -1.2999999523162842,
+                    -1.9500000476837158
+                ],
+                "relativeFilePath": "Assets/Models3D/turret/sa_turret.obj",
+                "rotDeg": [
+                    269.7749938964844,
+                    147.9250030517578,
+                    87.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "DEFENSE",
+                "pos": [
+                    0.0,
+                    2.0250000953674316,
+                    3.4000000953674316
+                ],
+                "relativeFilePath": "/Assets/Models3D/generator/sa_generator.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "DEFENSE",
+                "pos": [
+                    0.0,
+                    -1.125,
+                    10.175000190734863
+                ],
+                "relativeFilePath": "/Assets/Models3D/generator/sa_generator.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    180.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "DEFENSE",
+                "pos": [
+                    0.0,
+                    -2.325000047683716,
+                    -6.449999809265137
+                ],
+                "relativeFilePath": "/Assets/Models3D/generator/sa_generator.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    180.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "DEFENSE",
+                "pos": [
+                    1.7999999523162842,
+                    0.925000011920929,
+                    -4.25
+                ],
+                "relativeFilePath": "/Assets/Models3D/generator/sa_generator.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            },
+            {
+                "placementType": "DEFENSE",
+                "pos": [
+                    -1.7999999523162842,
+                    0.875,
+                    -4.25
+                ],
+                "relativeFilePath": "/Assets/Models3D/generator/sa_generator.obj",
+                "rotDeg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ]
+            }
+        ],
+        "primaryProjectileConfigName": "FighterLaser",
+        "sfx_engineLoop": {
+            "assetPath": "Assets/Sounds/ship_engine_fx.wav",
+            "bLooping": true,
+            "gain": 1.0,
+            "maxDistance": 10.0,
+            "pitchVariationRange": 0.0
+        },
+        "sfx_explosion": {
+            "assetPath": "Assets/Sounds/distant_explosion_fx.wav",
+            "bLooping": false,
+            "gain": 1.0,
+            "maxDistance": 30.0,
+            "pitchVariationRange": 0.20000000298023224
+        },
+        "sfx_muzzle": {
+            "assetPath": "Assets/Sounds/muzzlefire_fxwav.wav",
+            "bLooping": false,
+            "gain": 1.0,
+            "maxDistance": 5.0,
+            "pitchVariationRange": 0.20000000298023224
+        },
+        "sfx_projectileLoop": {
+            "assetPath": "Assets/Sounds/projectile_v2_loop_fx.wav",
+            "bLooping": true,
+            "gain": 1.0,
+            "maxDistance": 10.0,
+            "pitchVariationRange": 0.0
+        },
+        "shapes": [
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.0,
+                    14.5
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.949999988079071,
+                    0.5,
+                    1.0
+                ],
+                "shape": 3
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.0,
+                    12.0
+                ],
+                "rotationDegrees": [
+                    90.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.5,
+                    2.0,
+                    0.800000011920929
+                ],
+                "shape": 1
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.20000000298023224,
+                    4.900000095367432
+                ],
+                "rotationDegrees": [
+                    90.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.0999999046325684,
+                    6.0,
+                    1.600000023841858
+                ],
+                "shape": 1
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    -0.10000000149011612,
+                    1.7000000476837158
+                ],
+                "rotationDegrees": [
+                    90.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    3.0,
+                    6.0,
+                    1.7000000476837158
+                ],
+                "shape": 1
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.30000001192092896,
+                    -3.0
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    45.0
+                ],
+                "scale": [
+                    2.799999952316284,
+                    2.799999952316284,
+                    4.5
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.0,
+                    -7.5
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    45.0
+                ],
+                "scale": [
+                    2.299999952316284,
+                    2.299999952316284,
+                    4.5
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    0.0,
+                    -11.0
+                ],
+                "rotationDegrees": [
+                    90.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.5,
+                    1.0
+                ],
+                "shape": 1
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    2.869999885559082,
+                    -1.7000000476837158
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    45.0
+                ],
+                "scale": [
+                    0.20000000298023224,
+                    0.20000000298023224,
+                    1.5
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    2.5,
+                    -1.899999976158142
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.10000000149011612,
+                    0.6000000238418579,
+                    0.4000000059604645
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.800000011920929,
+                    0.8999999761581421,
+                    -9.600000381469727
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.699999988079071,
+                    0.6000000238418579,
+                    1.7000000476837158
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    -0.8500000238418579,
+                    0.8999999761581421,
+                    -9.649999618530273
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.5
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    1.0,
+                    -0.949999988079071,
+                    -10.649999618530273
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    45.0
+                ],
+                "scale": [
+                    0.800000011920929,
+                    0.75,
+                    2.049999952316284
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    -1.0,
+                    -0.8999999761581421,
+                    -10.149999618530273
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    45.0
+                ],
+                "scale": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    2.549999952316284
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    1.850000023841858,
+                    -0.15000000596046448,
+                    -5.349999904632568
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    4.75,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    3.6500000953674316
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    -1.9500000476837158,
+                    0.0,
+                    -5.449999809265137
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    -4.75,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    3.6500000953674316
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    -1.4500000476837158,
+                    -6.050000190734863
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    2.1500000953674316,
+                    1.0499999523162842,
+                    2.9000000953674316
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    1.899999976158142,
+                    0.0,
+                    1.600000023841858
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.600000023841858,
+                    1.0,
+                    7.650000095367432
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    -1.899999976158142,
+                    0.0,
+                    1.2999999523162842
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.600000023841858,
+                    1.0,
+                    7.5
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    1.100000023841858,
+                    0.0,
+                    10.149999618530273
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    -8.399999618530273,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    0.8999999761581421,
+                    3.8499999046325684
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    -1.350000023841858,
+                    0.0,
+                    9.350000381469727
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    8.649999618530273,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    3.799999952316284
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    2.1500000953674316,
+                    8.5
+                ],
+                "rotationDegrees": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.15000000596046448,
+                    0.15000000596046448,
+                    0.75
+                ],
+                "shape": 0
+            },
+            {
+                "modelFilePath": "",
+                "position": [
+                    0.0,
+                    1.899999976158142,
+                    8.199999809265137
+                ],
+                "rotationDegrees": [
+                    25.399999618530273,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.15000000596046448,
+                    0.6499999761581421,
+                    0.15000000596046448
+                ],
+                "shape": 0
+            }
+        ],
+        "spawnPoints": [
+            {
+                "direction_ln": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "location_lp": [
+                    3.299999952316284,
+                    0.0,
+                    2.6500000953674316
+                ]
+            },
+            {
+                "direction_ln": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "location_lp": [
+                    3.299999952316284,
+                    0.0,
+                    1.350000023841858
+                ]
+            },
+            {
+                "direction_ln": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "location_lp": [
+                    -3.299999952316284,
+                    0.0,
+                    1.4500000476837158
+                ]
+            },
+            {
+                "direction_ln": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "location_lp": [
+                    -3.299999952316284,
+                    0.0,
+                    2.6500000953674316
+                ]
+            }
+        ],
+        "spawnableConfigsByName": [
+            "XWing"
+        ],
+        "teamData": [
+            {
+                "projectileColor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.0
+                ],
+                "shieldColor": [
+                    0.5799999833106995,
+                    0.5099999904632568,
+                    0.9900000095367432
+                ],
+                "teamTint": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        ]
+    }
+}
